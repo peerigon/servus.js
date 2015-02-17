@@ -3,7 +3,7 @@ app:
   volumes:
     - .:/code
   working_dir: /code
-  command: node app.js
+  command: npm start
   ports:
     - "9001:9001"
 
