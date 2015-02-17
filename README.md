@@ -22,3 +22,10 @@ JSON-API for a bavarian greeting.
 1. On you machine: `npm start`
 2. With docker (fig required): `fig up`
 3. With vagrant: `vagrant up`, `cd /vagrant`, `npm start` and open your browser to `192.168.50.100:9001`
+
+
+### load tests
+
+```
+jmeter -n -t Servus.jmx -l log.jtl
+```
