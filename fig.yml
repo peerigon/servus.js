@@ -1,0 +1,9 @@
+app:
+  image: node
+  volumes:
+    - .:/code
+  working_dir: /code
+  command: node app.js
+  ports:
+    - "9001:9001"
+

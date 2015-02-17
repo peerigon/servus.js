@@ -1,0 +1,26 @@
+{
+  "name": "servus.js",
+  "version": "0.0.0",
+  "description": "Servus as a Service (SaaS)",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/servus.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peerigon/servus.js.git"
+  },
+  "keywords": [
+    "Servus",
+    "Service"
+  ],
+  "author": "peerigon",
+  "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/peerigon/servus.js/issues"
+  },
+  "homepage": "https://github.com/peerigon/servus.js"
+}
