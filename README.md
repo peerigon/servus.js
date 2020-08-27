@@ -1,8 +1,8 @@
 # servus.js
+
 Servus as a Service (SaaS)
 
 JSON-API for a bavarian greeting.
-
 
 [![npm status](https://nodei.co/npm/servus.js.svg?downloads=true&stars=true)](https://npmjs.org/package/servus.js)
 
@@ -23,9 +23,18 @@ JSON-API for a bavarian greeting.
 2. With docker (fig required): `fig up`
 3. With vagrant: `vagrant up`, `cd /vagrant`, `npm start` and open your browser to `192.168.50.100:9001`
 
-
 ### load tests
 
 ```
 jmeter -n -t Servus.jmx -l log.jtl
 ```
+
+---
+
+## License
+
+Unlicense
+
+## Sponsors
+
+[<img src="https://assets.peerigon.com/peerigon/logo/peerigon-logo-flat-spinat.png" width="150" />](https://peerigon.com)
